@@ -64,7 +64,7 @@ input[type=file] { color: #F8F8F2; background-color: #BD93F9; font-weight: bold;
 .snac-btn-mute { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9; }
 .snac-btn-unmute { float: right; margin-left: 0.5em;  border: none; background-color: #FFB86C; }
 .snac-btn-follow { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9; }
-.snac-btn-unfollow { float: right; margin-left: 0.5em; }
+.snac-btn-unfollow { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9;}
 .snac-btn-like { border: none; color: #F8F8F2; background-color: #6272A4; }
 .snac-btn-unlike { border: none; color: #F8F8F2; background-color: #6272A4;}
 .snac-btn-unbookmark { border: none; color: #F8F8F2; background-color: #6272A4;}
@@ -83,6 +83,7 @@ input[type=file] { color: #F8F8F2; background-color: #BD93F9; font-weight: bold;
 .snac-btn-follow:hover {  background-color: #50FA7B; }
 .snac-btn-unlike:hover {  background-color: #BD93F9; }
 .snac-btn-like:hover {  background-color: #BD93F9; }
+.snac-btn-unfollow:hover { background-color: #8BE9FD;}
 .snac-btn-limit { float: right; margin-left: 0.5em }
 .snac-btn-unlimit { float: right; margin-left: 0.5em }
 .snac-footer { margin-top: 2em; font-size: 75% }
