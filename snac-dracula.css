@@ -1,0 +1,102 @@
+/* default css from source (20261118) and inspired by DRACULATHEME https://draculatheme.com/contribute#color-palette */
+
+body { max-width: 48em; margin: auto; line-height: 1.5; padding: 0.8em; word-wrap: break-word; background-color: #282A36;color: #F8F8F2;}
+pre { overflow-x: scroll; }
+blockquote { font-style: italic; }
+
+h1, h2, h3 { color: #BD93F9;}
+
+a:link {
+  color: #FFB86C;
+}
+
+/* visited link */
+a:visited {
+  color: #BD93F9;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF79C6;
+}
+
+/* selected link */
+a:active {
+  color: #F1FA8C;
+}
+
+/* main buttons */
+.snac-list-of-lists a {color: #8BE9FD; font-weight: bold; text-decoration: none; }
+.snac-list-of-lists a:hover {color: #F1FA8C; font-weight: bold; text-decoration: none; }
+
+
+/* move top search box and style */
+.snac-search-box { float: right;}
+.snac-search-box>input[type=text] { border: none; border-radius: 8px; color: #282A36; background-color: #F1FA8C; }
+
+/* buttons */
+.button { color: #F8F8F2; background-color: #BD93F9; font-weight: bold; }
+.button:hover { color: #F8F8F2; background-color: #FF5555; font-weight: bold; }
+.snac-top-controls>details>form>input[type=submit] { background-color: #BD93F9; color: #F8F8F2;}
+.snac-top-controls>details>form>input[type=submit]:hover { background-color: #FF5555; color: #F8F8F2;}
+input[type=file] { color: #F8F8F2; background-color: #BD93F9; font-weight: bold; }
+
+/* timeline */
+.snac-posts { background: #44475A; padding: 1.1em;}
+
+.snac-embedded-video, img { max-width: 100% }
+.snac-origin { font-size: 85% }
+.snac-score { float: right; font-size: 85%; color: #50FA7B; }
+.snac-top-user { text-align: center; padding-bottom: 2em;  background-color: #44475A;}
+.snac-top-user-name { font-size: 200%; color: #FF79C6; }
+.snac-top-user-id { font-size: 150%; color: #FFB86C; }
+.snac-announcement { border: black 1px solid; padding: 0.5em }
+.snac-avatar { float: left; height: 2.5em; width: 2.5em; padding: 0.25em }
+.snac-author { font-size: 90%; text-decoration: none; font-weight: bold; }
+.snac-author-tag { font-size: 80% }
+.snac-pubdate { color: #a0a0a0; font-size: 90% }
+.snac-top-controls { padding-bottom: 1.5em }
+.snac-post { border-top: 1px solid #a0a0a0; padding-top: 0.5em; padding-bottom: 0.5em; }
+.snac-children { padding-left: 1em; border-left: 1px solid #a0a0a0; }
+.snac-thread-cont { border-top: 1px dashed #a0a0a0; }
+.snac-textarea { font-family: inherit; width: 100% }
+.snac-history { border: 1px solid #606060; border-radius: 3px; margin: 2.5em 0; padding: 0 2em }
+.snac-btn-mute { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9; }
+.snac-btn-unmute { float: right; margin-left: 0.5em;  border: none; background-color: #FFB86C; }
+.snac-btn-follow { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9; }
+.snac-btn-unfollow { float: right; margin-left: 0.5em; }
+.snac-btn-like { border: none; color: #F8F8F2; background-color: #6272A4; }
+.snac-btn-unlike { border: none; color: #F8F8F2; background-color: #6272A4;}
+.snac-btn-unbookmark { border: none; color: #F8F8F2; background-color: #6272A4;}
+.snac-btn-hide { float: right; margin-left: 0.5em; border: none; background-color: #BD93F9; }
+.snac-btn-delete { float: right; margin-left: 0.5em; border: none; background-color: #FFB86C; }
+.snac-btn-boost { margin-left: 0.5em; border: none; color: #F8F8F2; background-color: #6272A4; }
+.snac-btn-bookmark { margin-left: 0.5em; border: none; color: #F8F8F2; background-color: #6272A4; }
+.snac-btn-pin { margin-left: 0.5em; border: none; color: #F8F8F2; background-color: #6272A4; }
+.snac-btn-delete:hover {  background-color: #FF5555; }
+.snac-btn-pin:hover {  background-color: #BD93F9; }
+.snac-btn-bookmark:hover {  background-color: #BD93F9; }
+.snac-btn-unbookmark:hover {  background-color: #BD93F9; }
+.snac-btn-boost:hover {  background-color: #BD93F9; }
+.snac-btn-hide:hover {  background-color: #8BE9FD; }
+.snac-btn-mute:hover {  background-color: #8BE9FD; }
+.snac-btn-follow:hover {  background-color: #50FA7B; }
+.snac-btn-unlike:hover {  background-color: #BD93F9; }
+.snac-btn-like:hover {  background-color: #BD93F9; }
+.snac-btn-limit { float: right; margin-left: 0.5em }
+.snac-btn-unlimit { float: right; margin-left: 0.5em }
+.snac-footer { margin-top: 2em; font-size: 75% }
+.snac-poll-result { margin-left: auto; margin-right: auto; }
+.snac-list-of-lists { padding-left: 0; }
+.snac-list-of-lists li { display: inline; border: 1px solid #a0a0a0; border-radius: 25px;
+  margin-right: 0.5em; padding-left: 0.5em; padding-right: 0.5em; }
+.snac-no-more-unseen-posts { border-top: 1px solid #a0a0a0; border-bottom: 1px solid #a0a0a0; padding: 0.5em 0; margin: 1em 0; }
+.snac-reaction { padding:5px; padding-left: 10px; padding-right: 10px; display: inline-flex; margin-right: 5px; font-family: inherit; font-size: medium; height: 2.5rem; vertical-align:middle; align-items:center;}
+.snac-reaction-image { max-width: 100%; max-height: 100%; }
+.snac-reaction-div { border-left: darkgray; border-left-style: solid; margin-bottom: .3em; padding-left: .3em; border-left-width: 2px; }
+@media (prefers-color-scheme: dark) {
+  body, input, textarea { background-color: #000; color: #fff; }
+  a { color: #7799dd }
+  a:visited { color: #aa99dd }
+}
+select { max-width: 40%; }
