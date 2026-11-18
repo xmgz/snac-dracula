@@ -18,9 +18,8 @@ This theme is maintained by [![ghose](https://github.com/xmgz.png?size=100)](htt
 
 ## Contact
 
-- [ghose at ⁂](https://gts.xmgz.eu/@ghose) - xmgz at fediverse ⁂
-- [draculatheme GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [draculatheme Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+- [ghose at ⁂](https://gts.xmgz.eu/@ghose) - ghose at fediverse ⁂
+
 
 ## Dracula PRO
 
