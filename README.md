@@ -1,28 +1,26 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [snac2](https://codeberg.org/grunfink/snac2)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for [snac2](https://codeberg.org/grunfink/snac2).
 
-![Screenshot](./screenshot.png)
+![Screenshot featuring dracula for snac](./screenshot.png)
+
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+* create `style.css` inside user's profile `static` dir
+* open `style.css`
+* paste `snac-dracula.css`'s content
 
-## Team
+## Contributor
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme is maintained by [![ghose](https://github.com/xmgz.png?size=100)](https://github.com/xmgz)
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               | [Lucas de França](https://github.com/luxonauta)                                               |
 
-## Community
+## Contact
 
-Join thousands of vampires using Dracula Theme around the world 🦇
-
-- [X (Twitter)](https://x.com/draculatheme) and [Instagram](https://www.instagram.com/draculatheme) - Follow for tips, news, and fun.
-- [Discord](https://draculatheme.com/discord-invite) - Hang out and chat with the rest of the clan.
-- [GitHub Discussions](https://github.com/dracula/dracula-theme/discussions) - Ask questions and discuss issues.
+- [ghose at ⁂](https://gts.xmgz.eu/@ghose) - xmgz at fediverse ⁂
+- [draculatheme GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
+- [draculatheme Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
 
 ## Dracula PRO
 
