@@ -1,6 +1,7 @@
 /* default css from source (20261118) and inspired by DRACULATHEME https://draculatheme.com/contribute#color-palette */
+# draculatheme
 
-body { max-width: 48em; margin: auto; line-height: 1.5; padding: 0.8em; word-wrap: break-word; background-color: #282A36;color: #F8F8F2;}
+body { max-width: 48em; margin: auto; line-height: 1.5; padding: 0.8em; word-wrap: break-word; background-color: #282A36; color: #F8F8F2; }
 pre { overflow-x: scroll; }
 blockquote { font-style: italic; }
 
@@ -51,7 +52,7 @@ input[type=file] { color: #F8F8F2; background-color: #BD93F9; font-weight: bold;
 .snac-top-user-name { font-size: 200%; color: #FF79C6; }
 .snac-top-user-id { font-size: 150%; color: #FFB86C; }
 .snac-announcement { border: black 1px solid; padding: 0.5em }
-.snac-avatar { float: left; height: 2.5em; width: 2.5em; padding: 0.25em }
+.snac-avatar { float: left; height: 2.5em; width: 2.5em; padding: 0.25em; border-radius: 10px; }
 .snac-author { font-size: 90%; text-decoration: none; font-weight: bold; }
 .snac-author-tag { font-size: 80% }
 .snac-pubdate { color: #a0a0a0; font-size: 90% }
@@ -77,13 +78,13 @@ input[type=file] { color: #F8F8F2; background-color: #BD93F9; font-weight: bold;
 .snac-btn-pin:hover {  background-color: #BD93F9; }
 .snac-btn-bookmark:hover {  background-color: #BD93F9; }
 .snac-btn-unbookmark:hover {  background-color: #BD93F9; }
+.snac-btn-unfollow:hover { background-color: #8BE9FD;}
 .snac-btn-boost:hover {  background-color: #BD93F9; }
 .snac-btn-hide:hover {  background-color: #8BE9FD; }
 .snac-btn-mute:hover {  background-color: #8BE9FD; }
 .snac-btn-follow:hover {  background-color: #50FA7B; }
 .snac-btn-unlike:hover {  background-color: #BD93F9; }
 .snac-btn-like:hover {  background-color: #BD93F9; }
-.snac-btn-unfollow:hover { background-color: #8BE9FD;}
 .snac-btn-limit { float: right; margin-left: 0.5em }
 .snac-btn-unlimit { float: right; margin-left: 0.5em }
 .snac-footer { margin-top: 2em; font-size: 75% }
